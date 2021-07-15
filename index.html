@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Medicine4Cure-Home</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <style>
+  #loading
+  {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff url('assets/img/heartloader.gif') no-repeat center;
+  z-index: 99999;
+  }
+  .ml9 {
+  position: relative;
+  font-weight: 600;
+  font-size: 2.8em;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  }
+  .ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+  }
+  .ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+  }
+  ::-webkit-scrollbar
+  {
+  width: 10px;
+  }
+  ::-webkit-scrollbar-thumb
+  {
+  background: linear-gradient(#ffffff, red);
+  border-radius: 10px;
+  }
+  }
+  </style>
+  <body onload="myfun()">
+    <div id="loading">
+      
+    </div>
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+          <i class="icofont-clock-time"></i> Monday - Saturday, 8AM to 10PM
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="icofont-phone"></i> Call us now  <a style="color: white" href="callto:6390314000"> &nbsp&nbsp+91-6390314000</a>
+        </div>
+      </div>
+    </div>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active" ><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="update.html">Update/Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          </ul>
+          </nav><!-- .nav-menu -->
+          <a href="Appointment.php" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+        </div>
+        </header><!-- End Header -->
+        <!-- ======= Hero Section ======= -->
+        <section id="hero">
+          <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url('assets/img/2.jpg')">
+              <div class="container" style=" background-color: #d1d1d1; width: 430px; margin-bottom: 200px; opacity: 0.9;border-radius: 10px;">
+                <h1 class="ml9">
+                <span class="text-wrapper">
+                  <span class="letters">Medicine4Cure</span>
+                </span>
+                </h1>
+                <p style="color: black;font-family: 'Poppins', sans-ser34;">Ease for Health</p>
+                <a href="about.html" class="btn-get-started">About Medicine4Cure</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section><!-- End Hero -->
+        <main id="main">
+          <!-- ======= Featured Services Section ======= -->
+          <section id="featured-services" class="featured-services">
+            <div class="container" data-aos="fade-up">
+              <div class="row" style="text-align: center;">
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                  <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon"><i class="icofont-doctor"></i></div>
+                    <h4 class="title"><a href="doctor.html">Doctor's</a></h4>
+                    <div class="text-center">
+                    <p class="description"><img src="assets/svg/1.svg" style="height: 150px; width: 370px; background-position:center;" class="img-fluid"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                  <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon"><i class="icofont-hospital"></i></div>
+                    <h4 class="title"><a href="hospital.html">Hospital's</a></h4>
+                    <div class="text-center">
+                    <p class="description"><img src="assets/svg/2.svg" style="height: 150px; width: 370px;  background-position:center;" class="img-fluid"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                  <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon"><i class="icofont-thermometer-alt"></i></div>
+                    <h4 class="title"><a href="hospital.html">Clinic</a></h4>
+                    <div class="text-center">
+                    <p class="description"><img src="assets/svg/3.svg" style="height: 150px; width: 370px; background-position:center;" class="img-fluid"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                  <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon"><i class="icofont-dna-alt-1"></i></div>
+                    <h4 class="title"><a href="#">Consultation</a></h4>
+                    <div class="text-center">
+                    <p class="description"><img src="assets/svg/4.svg" style="height: 150px; width: 370px;background-position:center;" class="img-fluid"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section><!-- End Featured Services Section -->
+            <!-- ======= Cta Section ======= -->
+            <section id="cta" class="cta">
+              <div class="container" data-aos="zoom-in">
+                <div class="text-center">
+                  <h3>In an emergency? Need help now?</h3>
+                  <p>Just click this button and fill the form. We will contact you soon.</p>
+                  <a class="cta-btn scrollto" href="appointment.php">Make an Appointment</a>
+                </div>
+              </div>
+              </section><!-- End Cta Section -->
+              <!-- ======= Counts Section ======= -->
+              <section id="counts" class="counts text-center">
+                <div class="container" data-aos="fade-up">
+                  <div class="row no-gutters">
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                      <div class="count-box ">
+                        <i class="icofont-doctor-alt "></i>
+                        <span data-toggle="counter-up" class="pr-5">85</span>
+                        <p><strong>Doctors</strong>  with us</p>
+                        <a href="#">Find out more &raquo;</a>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                      <div class="count-box">
+                        <i class="icofont-patient-bed"></i>
+                        <span data-toggle="counter-up" class="pr-5">18</span>
+                        <p><strong>Clinic</strong>  in ranchi</p>
+                        <a href="#">Find out more &raquo;</a>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                      <div class="count-box">
+                        <i class="icofont-hospital"></i>
+                        <span data-toggle="counter-up" class="pr-5">8</span>
+                        <p><strong> Hospitals</strong> linked with us</p>
+                        <a href="#">Find out more &raquo;</a>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                      <div class="count-box">
+                        <i class="icofont-laboratory"></i>
+                        <span data-toggle="counter-up" class="pr-5">150</span>
+                        <p><strong>consultation</strong>  with us</p>
+                        <a href="#">Find out more &raquo;</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </section><!-- End Counts Section -->
+                <!-- ======= Frequently Asked Questioins Section ======= -->
+                <section id="faq" class="faq section-bg">
+                  <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                      <h2>Frequently Asked Questioins</h2>
+                      <p>Here you can find the frequently asked question.</p>
+                    </div>
+                    <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
+                      <li>
+                        <a data-toggle="collapse" class="" href="#faq1">What is Medicine4Cure ?<i class="icofont-simple-up"></i></a>
+                        <div id="faq1" class="collapse show" data-parent=".faq-list">
+                          <p>
+                            Medicine4cure is a foundation which is linked to many hospitals and doctors.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <a data-toggle="collapse" href="#faq2" class="collapsed">How to book Appointment ? <i class="icofont-simple-up"></i></a>
+                        <div id="faq2" class="collapse" data-parent=".faq-list">
+                          <p>
+                            To book an appointment go to book appointment section fill all necessary details and click on book appointment and we will reach you soon..
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <a data-toggle="collapse" href="#faq3" class="collapsed">How to find hospitals ? <i class="icofont-simple-up"></i></a>
+                        <div id="faq3" class="collapse" data-parent=".faq-list">
+                          <p>
+                            In services section you can find the hospitals list.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <a data-toggle="collapse" href="#faq4" class="collapsed">How to find clinic ? <i class="icofont-simple-up"></i></a>
+                        <div id="faq4" class="collapse" data-parent=".faq-list">
+                          <p>
+                            In services section you can find clinic.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <a data-toggle="collapse" href="#faq5" class="collapsed">How to contact with Doctor ? <i class="icofont-simple-up"></i></a>
+                        <div id="faq5" class="collapse" data-parent=".faq-list">
+                          <p>
+                            Simply book an appointment our team will reach you after booking an appointmen.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <a data-toggle="collapse" href="#faq6" class="collapsed">What is the fee of doctor ? <i class="icofont-simple-up"></i></a>
+                        <div id="faq6" class="collapse" data-parent=".faq-list">
+                          <p>
+                            After booking your appointment our team will contact you then you can ask the fee structure.
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  </section><!-- End Frequently Asked Questioins Section -->
+                  <!-- ======= Testimonials Section ======= -->
+                  <section id="testimonials" class="testimonials">
+                    <div class="container" data-aos="fade-up">
+                      <div class="section-title">
+                        <h2>Testimonials</h2>
+                        <p></p>
+                      </div>
+                      <div class="owl-carousel testimonials-carousel" data-aos="fade-up" data-aos-delay="100">
+                        <div class="testimonial-item">
+                          <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            “I had a great experience during my stay in the hospital".
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                          </p>
+                          
+                          <img src="assets/img/u.png" class="testimonial-img" alt="">
+                          <h3>Tushar Anand</h3>
+                          
+                        </div>
+                        <div class="testimonial-item">
+                          <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            “Great group of doctors and helpers you may go for treatment here”.
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                          </p>
+                          <img src="assets/img/u.png" class="testimonial-img" alt="">
+                          <h3>Amit kumar</h3>
+                        </div>
+                        <div class="testimonial-item">
+                          <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            Best experience till now. Will surely tell others to get treated here 👍
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                          </p>
+                          <img src="assets/img/u.png" class="testimonial-img" alt="">
+                          <h3>Sapna Sharma</h3>
+                        </div>
+                      </div>
+                    </div>
+                    </section><!-- End Testimonials Section -->
+                    </main><!-- End #main -->
+                    <!--footer--->
+                    <footer id="footer"  class="text-center" >
+                      <div class="footer-top" style="background-size: cover; background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('assets/img/footer.jpg'); color: white;">
+                        <div class="container" >
+                          <div class="row">
+                            <div class="col-lg-3 col-md-6" >
+                              <div class="footer-info">
+                                <h3 style="color: white">Medicine4Cure</h3>
+                                <p>
+                                  Ranchi <br>
+                                  jharkhand India<br><br>
+                                  <strong>Phone:</strong> +91-6390314000<br>
+                                  <strong>Email:</strong> info@example.com<br>
+                                </p>
+                                <div class="social-links mt-3">
+                                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                  <a href="#" class="google-plus"><i class="bx bxl-youtube"></i></a>
+                                  <a href="#" class="linkedin"><i class="bx bxl-whatsapp"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 footer-links" style="text-align: left;">
+                              <h4 style="color: white;">Useful Links</h4>
+                              <ul>
+                                <li ><i class="bx bx-chevron-right"></i> <a  style="color: white;"href="index.html">Home</a></li>
+                                <li ><i class="bx bx-chevron-right"></i> <a  style="color: white;"href="services.html">Services</a></li>
+                                <li style="margin-bottom: -25px;" ><i class="bx bx-chevron-right"></i> <a  style="color: white;"href="gallery.html">Gallery<a></li>
+                                <li ><i class="bx bx-chevron-right"></i> <a  style="color: white;"href="update.html">Updates/Blog</a></li>
+                                <li ><i class="bx bx-chevron-right"></i> <a  style="color: white;"href="contact.php">Contact</a></li>
+                                <li ><i class="bx bx-chevron-right"></i> <a  style="color: white;"href="about.html">About</a></li>
+                              </ul>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 footer-newsletter">
+                              <h4 style="color: white;">Our Services</h4>
+                              <ul style="text-align: left;list-style: none;">
+                                <li style="margin-bottom: 15px;"><i class="bx bx-chevron-right"></i> <a  style="text-decoration: none;color: white;" href="hospital.html">Hospital's</a></li>
+                                <li  style="margin-bottom: 15px;"><i class="bx bx-chevron-right"></i> <a  style="text-decoration: none;color: white;" href="doctor.html">Doctor's</a></a></li>
+                                <li  style="margin-bottom: 15px;"><i class="bx bx-chevron-right"></i> <a  style="text-decoration: none;color: white;" href="hospital.html">Clinic</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;color: white;" href="#">Consultations</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-6 footer-links">
+                              <h4 style="color: white;">About Us</h4>
+                              <p>We provide best services in Ranchi Jharkhand</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="color: white; font-weight: bold;background-color: #f21111; padding:-15px 0;">
+                        <div class="container" >
+                          <div class="copyright">
+                            &copy; Copyright <strong><span>@ Medicine4Cure</span></strong>. All Rights Reserved
+                          </div>
+                          <div class="credits" style="margin-bottom: -40px;">
+                            Designed by <a href="https://teambrahm.com/" style="color: orange;">Brahm Technology Pvt. Ltd.</a>
+                            <br><br>
+                          </div>
+                        </div>
+                      </div>
+                      </footer><!-- End Footer -->
+                      
+                      <div id="preloader"></div>
+                      <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+                      <!-- Vendor JS Files -->
+                      <script src="assets/vendor/jquery/jquery.min.js"></script>
+                      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                      <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+                      <script src="assets/vendor/php-email-form/validate.js"></script>
+                      <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+                      <script src="assets/vendor/counterup/counterup.min.js"></script>
+                      <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+                      <script src="assets/vendor/venobox/venobox.min.js"></script>
+                      <script src="assets/vendor/aos/aos.js"></script>
+                      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+                      <script src="assets/js/main.js"></script>
+                    </body>
+                    <script>
+                    var preloader = document.getElementById('loading');
+                    function myfun()
+                    {
+                    preloader.style.display = 'none';
+                    }
+                    </script>
+                    <script>
+                    var textWrapper = document.querySelector('.ml9 .letters');
+                    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+                    anime.timeline({loop: true})
+                    .add({
+                    targets: '.ml9 .letter',
+                    scale: [0, 1],
+                    duration: 1500,
+                    elasticity: 600,
+                    delay: (el, i) => 45 * (i+1)
+                    }).add({
+                    targets: '.ml9',
+                    opacity: 0,
+                    duration: 1000,
+                    easing: "easeOutExpo",
+                    delay: 1000
+                    });
+                    </script>
+                  </html>
